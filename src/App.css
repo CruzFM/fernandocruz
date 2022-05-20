@@ -67,14 +67,79 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* Start of the Hero Section Styling */
-.hero{
-  background-color: blueviolet;
-  color: white;
+.heroSection{
+  /* background-color: blueviolet; */
+  /* color: white; */
   height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heroSection--img > img{
+  width: 400px;
+}
+
+.projects{
+  /* background-color: gold; */
+  height: 100vh;
+  /* color: white; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 90%;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.projects--title{
+  grid-area: 1 / 1 / 2 / 3; 
+  background-color: bisque;
+  width: 100%;
+}
+
+.projects--one{
+  background-color: blue;
+  width: 100%;
+
+}
+
+.projects--one_img{
+  width: 300px;
+}
+
+.projects--two{
+  background-color: rgb(145, 145, 167);
+  width: 100%;
+}
+
+.projects--two_img{
+  width: 300px;
+}
+
+.projects--three{
+  background-color: rgb(179, 94, 153);
+  width: 100%;
+}
+
+.projects--three_img{
+  width: 300px;
+}
+
+.projects--four{
+  background-color: rgb(129, 201, 147);
+  width: 100%;
+}
+
+.projects--four_img{
+  width: 300px;
 }
 
 .skills{
-  background-color: green;
+  /* background-color: green; */
+  border: 1px solid black;
   height: 100vh;
   color: white;
 }
@@ -85,52 +150,15 @@ h1, h2, h3, h4, h5, h6{
   color: white;
 }
 
-.projects{
-  background-color: gold;
-  height: 100vh;
-  color: white;
-}
+
 
 .footer{
   background-color: gray;
   height: 50vh;
   color: white;
 }
-/* .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.darkMode{
+  background-color: rgb(39, 39, 59);
+  color: rgb(237, 241, 226);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

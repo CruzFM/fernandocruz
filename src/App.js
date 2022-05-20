@@ -12,9 +12,9 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <Projects />
       <Skills />
       <AboutMe />
-      <Projects />
       <Footer />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

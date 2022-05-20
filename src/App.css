@@ -1,4 +1,102 @@
-.App {
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin:0;
+}
+
+
+
+/*Start of the Header section styling*/
+
+.header{
+  height: 15vh;
+  background-color: rgb(153, 153, 175);
+}
+
+.header--navbar{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header--navbar_intro{
+    margin-right: auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    align-self: center;
+    /* align-items: center; */
+    /* padding: 0px; */
+}
+.header--navbar_intro > button > img{
+  width: 50px;
+  background-color: transparent;
+}
+.header--navbar_items{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header--navbar_items > li {
+  padding: 25px 32px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+.header--navbar_items > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Start of the Hero Section Styling */
+.hero{
+  background-color: blueviolet;
+  color: white;
+  height: 85vh;
+}
+
+.skills{
+  background-color: green;
+  height: 100vh;
+  color: white;
+}
+
+.aboutMe{
+  background-color: darkmagenta;
+  height: 100vh;
+  color: white;
+}
+
+.projects{
+  background-color: gold;
+  height: 100vh;
+  color: white;
+}
+
+.footer{
+  background-color: gray;
+  height: 50vh;
+  color: white;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +133,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

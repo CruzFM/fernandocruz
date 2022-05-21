@@ -140,8 +140,8 @@ h1, h2, h3, h4, h5, h6{
 .skills{
   /* background-color: green; */
   border: 1px solid black;
-  height: 100vh;
-  color: white;
+  height: 50vh;
+  /* color: white; */
 }
 
 .aboutMe{

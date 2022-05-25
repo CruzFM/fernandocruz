@@ -18,13 +18,14 @@ h1, h2, h3, h4, h5, h6{
   margin:0;
 }
 
-
-
 /*Start of the Header section styling*/
 
 .header{
   height: 15vh;
   background-color: rgb(153, 153, 175);
+  position: sticky;
+  top: 0;
+  /* align-self: flex-start; */
 }
 
 .header--navbar{
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6{
   flex-direction: row;
   width: 90%;
   margin: 0 auto;
+
 }
 
 .header--navbar_intro{
@@ -76,6 +78,7 @@ h1, h2, h3, h4, h5, h6{
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 .heroSection--img > img{
@@ -142,20 +145,103 @@ h1, h2, h3, h4, h5, h6{
   border: 1px solid black;
   height: 50vh;
   /* color: white; */
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills--elements{
+  display: inherit;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.skills--elements_item{
+
+  max-width: 200px;
+  border: 1px solid rgb(75, 39, 116);
+  border-radius: 12px;
+  margin: 0px 5px 5px;
+  
+}
+.skills--elements_item > h4{
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+.skills--elements_item > img {
+  max-width: 100px;
 }
 
 .aboutMe{
-  background-color: darkmagenta;
+  /* background-color: darkmagenta; */
   height: 100vh;
-  color: white;
+  /* color: white; */
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+
+}
+.aboutMe--text{
+  /* flex: 1; */
+  flex: 1;
+  border: 1px solid black;
+  padding: 24px 32px;
 }
 
+.aboutMe--img{
+  flex: 1;
+  border: 1px solid black;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+}
 
+.aboutMe--img > img{
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 50%;
+}
 
 .footer{
-  background-color: gray;
+  background-color: rgb(26, 35, 46);
   height: 50vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--elements{
+  display: inherit;
+  flex-direction: row;
+
+}
+.footer--elements_item{
+  display: inherit;
+  flex-direction: column;
+  max-width: 200px;
+  /* border: 1px solid white; */
+  justify-content: center;
+  padding: 20px 32px;
+}
+
+.footer--elements_item > h3{
+  /* border: 1px solid white; */
+  padding: 10px;
+}
+
+.footer--elements_item > a > img{
+  width: 50px;
+  /* align-self: center;
+  justify-self: center; */
+  padding-left: 15px;
+  /* padding: 10px; */
+  /* border: 1px solid white; */
 }
 
 .darkMode{

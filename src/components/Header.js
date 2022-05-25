@@ -1,14 +1,20 @@
 import React from "react"
 import sun from "../images/sun.png"
+import moon from "../images/luna.png"
 
-export default function Header(){
+export default function Header(props){
 
     return (
-        <header className="header">
+        <header className={props.darkMode ? "header darkMode" : "header"}>
             <nav className="header--navbar">
+
                 <div className="header--navbar_intro">
-                    <button>
-                        <img src={sun} alt="dark mode"/>
+                    <button onClick={props.toggleDarkMode}>
+                        
+                        {props.darkMode ? 
+                        <img src={moon} alt="dark mode" />
+                        : <img src={sun} alt="light mode"/>}
+
                     </button>
 
                     <h3>
@@ -18,19 +24,19 @@ export default function Header(){
 
                 <ul className="header--navbar_items">
                     <li>
-                       <a href="#">Home</a>
+                       <a href="#home">Home</a>
                     </li>
 
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
 
                     <li>
-                        <a href="#">Skills</a> 
+                        <a href="#skills">Skills</a> 
                     </li>
 
                     <li>
-                        <a href="#">About me</a>
+                        <a href="#aboutMe">About me</a>
                     </li>
 
                 </ul>

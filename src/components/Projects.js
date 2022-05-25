@@ -1,9 +1,10 @@
 import React from "react"
 import projectPlaceholder from "../images/projectPlaceholder.svg"
 
-export default function Projects(){
+export default function Projects(props){
     return(
-        <section className="container-projectsSection">
+        <section className={props.darkMode ? "darkMode" : ""} id="projects">
+            
             <div className="projects">
 
                 <article className="projects--title">

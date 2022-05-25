@@ -7,45 +7,47 @@ import gitLogo from "../images/gitLogo.png"
 import javaLogo from "../images/javaLogo.png"
 import sqlLogo from "../images/sqlserverLogo.png"
 
-export default function Skills(){
+export default function Skills(props){
     return(
-        <section className="container-skills">
+        <section className={props.darkMode ? "darkMode" : ""} id="skills">
 
-            <article className="skills">
-                <h2>
+            <article className="skills" >
+                <h2 className="skills--title">
                     These are my skills
                 </h2>
-                <ul>
+                <ul className="skills--elements">
 
-                    <li>
+                    <li className="skills--elements_item">
                         <h4>HTML 5</h4>
                         <img src={html5Logo} alt="HTML5"/>
                     </li>
 
-                    <li>
+                    <li className="skills--elements_item">
                         <h4>CSS 3</h4>
                         <img src={cssLogo} alt="CSS3" />
                     </li>
 
-                    <li>
+                    <li className="skills--elements_item">
                         <h4>Javascript ES6</h4>
                         <img src={javascriptLogo} alt="Javascript"/>
                     </li>
 
-                    <li>
+                    <li className="skills--elements_item">
                         <h4>React</h4>
                         <img src={reactLogo} alt="React"/>
                     </li>
 
-                    <li>
+                    <li className="skills--elements_item">
                         <h4>Git</h4>
                         <img src={gitLogo} alt="Git" />
                     </li>
-                    <li>
+
+                    <li className="skills--elements_item">
                         <h4>Java</h4>
                         <img src={javaLogo} alt="Java"/>
                     </li>
-                    <li>
+
+                    <li className="skills--elements_item">
                         <h4>SQL Server</h4>
                         <img src={sqlLogo} alt="SQL"/>
                     </li>

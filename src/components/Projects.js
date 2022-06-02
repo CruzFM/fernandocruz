@@ -8,10 +8,72 @@ export default function Projects(props){
             <div className="projects">
 
                 <article className="projects--title">
-                    <h2> PROJECTS </h2>
+                    <h2> Take a look at my projects! </h2>
                 </article>
 
-                <article className="projects--one">
+                
+
+                <article className="projects--elements">
+
+                    <div className="projects--elements_one">
+
+                        <img src={projectPlaceholder} 
+                            alt="projectPlaceOne" 
+                            className="projects--one_img"
+                        />
+
+                        <p>
+                            Here i talk about the project
+                        </p>
+
+                    </div>
+
+
+                    <div className="projects--elements_two">
+                        
+                        <img src={projectPlaceholder} 
+                            alt="projectPlaceOne" 
+                            className="projects--two_img"
+                        />
+
+                        <p>
+                            Here i talk about the project again
+                        </p>
+
+                    </div>
+
+
+                    <div className="projects--elements_three">
+                        <img src={projectPlaceholder} 
+                            alt="projectPlaceOne" 
+                            className="projects--three_img"
+                        />
+
+                        <p>
+                            Here i talk about the project again
+                        </p>
+
+                    </div>
+
+
+                    <div className="projects--elements_four">
+
+                        <img src={projectPlaceholder} 
+                            alt="projectPlaceOne" 
+                            className="projects--four_img"
+                        />
+
+                        <p>
+                            Here i talk about the project again
+                        </p>
+
+                    </div>
+
+
+                </article>
+
+
+                {/* <article className="projects--one">
                     <img src={projectPlaceholder} 
                         alt="projectPlaceOne" 
                         className="projects--one_img"
@@ -43,7 +105,7 @@ export default function Projects(props){
                 <img src={projectPlaceholder} 
                     alt="projectPlaceOne" 
                     className="projects--four_img"/>
-                </article>
+                </article> */}
 
             </div>
         </section>

@@ -13,7 +13,7 @@ export default function AboutMe(props){
                         About me
                     </h2>
                     <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dolores asperiores harum eos! Sapiente velit totam laborum sunt eum temporibus aliquid. Aliquam consequuntur vitae vero recusandae consectetur optio mollitia aperiam.
+                    Formerly a lawyer (University of Buenos Aires), I discovered my passion for programming right before graduation. After graduating, I started learning by myself, and with the help of institutions such as Coderhouse and online resources like Scrimba and freeCodeCamp, among others. I'm looking for a new opportunity in this vast world that is the IT industry, and I plan on studying Computer Engineering at the University of Buenos Aires as soon as I get an opportunity.
                     </p>
                 </div>
                 <div className="aboutMe--img">

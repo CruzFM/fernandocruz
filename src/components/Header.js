@@ -6,7 +6,7 @@ export default function Header(props){
 
     return (
         <header className={props.darkMode ? "header darkMode" : "header"}>
-            <nav className="header--navbar">
+            <nav className={props.darkMode ? "header--navbar darkMode" : "header--navbar"}>
 
                 <div className="header--navbar_intro">
                     <button onClick={props.toggleDarkMode}>
@@ -24,7 +24,7 @@ export default function Header(props){
 
                 <ul className="header--navbar_items">
                     <li>
-                       <a href="#home">Home</a>
+                       <a href="#hero">Home</a>
                     </li>
 
                     <li>

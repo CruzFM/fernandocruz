@@ -20,6 +20,7 @@ export default function Projects(props){
                     title="The Rock Store"
                     projectDescription="E-commerce store built for the Javascript course offered by Coderhouse."
                     techologies="HTML, CSS, Bootstrap, Javascript, JQuery"
+                    link="https://cruzfm.github.io/proyecto-final-coderhouse/"
                 />
                 <ProjectElement 
                     projectPlaceholder={placeHolderImage}

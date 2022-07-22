@@ -3,7 +3,7 @@ export default function ProjectElement(props){
         <div className="projectElement">
             
             <div className="projectElement--img">
-                <a href="https://cruzfm.github.io/proyecto-final-coderhouse/">
+                <a href={props.link}>
 
                     <img src={props.projectPlaceholder} 
                         alt="projectPlaceOne" 

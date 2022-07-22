@@ -4,11 +4,9 @@ import placeholder from "../images/placeholder.svg"
 export default function Hero(props){
 
     const [heroIsClicked, setHeroIsClicked] = React.useState( false )
-    console.log(heroIsClicked)
   
     const toggleHero = () =>{
       setHeroIsClicked(prevHero => !prevHero)
-      console.log(heroIsClicked)
     }
 
     const heroText = () => {
@@ -36,7 +34,13 @@ export default function Hero(props){
         return(
 
             <div className="heroSection--img">
-                <img src={placeholder} alt="placeholder"/>
+                <iframe 
+                    src="https://www.youtube.com/embed/5u_Od_DoozU" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
                 <button className="heroButton" onClick={toggleHero}>Back to title!</button>
             </div>
 
@@ -56,26 +60,6 @@ export default function Hero(props){
             <div className="heroSection">
 
                 {renderHero()}
-
-                {/* <div className="heroSection--text">
-
-                    <h1>
-                        Hello World!
-                    </h1>
-
-                    <h2>
-                        I'm Fernando Cruz, a front end developer and former lawyer.
-                    </h2>
-
-                    <button onClick={props.toggleHero}>
-                        Click me!
-                    </button>
-                </div> */}
-
-                {/* <div className="heroSection--img">
-                    <img src={placeholder} alt="placeholder"/>
-                </div> */}
-
                 
             </div>
 

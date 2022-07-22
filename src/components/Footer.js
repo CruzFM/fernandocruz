@@ -26,7 +26,7 @@ export default function Footer(){
                 </li>
 
                 <li className="footer--elements_item">
-                    <h3>Whatsapp</h3>
+                    <h3>WPP</h3>
                     <a href="https://wa.me/5491137902453">
                         <img src={whatsappLogo} alt="WhatsApp"/> 
                     </a>

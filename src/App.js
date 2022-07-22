@@ -9,15 +9,9 @@ import Projects from "./components/Projects"
 import Footer from "./components/Footer"
 
 function App() {
-  console.log("renderized")
+  // console.log("renderized")
 
   const [darkMode, setDarkMode] = React.useState( false )
-
-  // console.log(darkMode)
-
-  // React.useEffect( () => {
-  //   localStorage.setItem("dark", darkMode ? darkMode : false);
-  // }, [darkMode] )
 
   const toggleDarkMode = () => {
     setDarkMode(prevDarkMode => !prevDarkMode)

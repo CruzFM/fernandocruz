@@ -18,37 +18,37 @@ export default function Skills(props){
                 <ul className="skills--elements">
 
                     <li className="skills--elements_item">
-                        <h4>HTML 5</h4>
+                        <h5>HTML 5</h5>
                         <img src={html5Logo} alt="HTML5"/>
                     </li>
 
                     <li className="skills--elements_item">
-                        <h4>CSS 3</h4>
+                        <h5>CSS 3</h5>
                         <img src={cssLogo} alt="CSS3" />
                     </li>
 
                     <li className="skills--elements_item">
-                        <h4>Javascript ES6</h4>
+                        <h5>Javascript</h5>
                         <img src={javascriptLogo} alt="Javascript"/>
                     </li>
 
                     <li className="skills--elements_item">
-                        <h4>React</h4>
+                        <h5>React</h5>
                         <img src={reactLogo} alt="React"/>
                     </li>
 
                     <li className="skills--elements_item">
-                        <h4>Git</h4>
+                        <h5>Git</h5>
                         <img src={gitLogo} alt="Git" />
                     </li>
 
                     <li className="skills--elements_item">
-                        <h4>Java</h4>
+                        <h5>Java</h5>
                         <img src={javaLogo} alt="Java"/>
                     </li>
 
                     <li className="skills--elements_item">
-                        <h4>SQL Server</h4>
+                        <h5>SQL</h5>
                         <img src={sqlLogo} alt="SQL"/>
                     </li>
                 </ul>

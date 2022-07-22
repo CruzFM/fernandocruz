@@ -1,5 +1,9 @@
 import React from "react"
+// import ProjectOne from "./projectsComponents/ProjectOne"
+import ProjectElement from "./projectsComponents/ProjectElement"
 import projectPlaceholder from "../images/projectPlaceholder.svg"
+import placeHolderImage from "../images/placeholderImage.jpg"
+import projectOne from "../images/Proyecto1-portfolio(2).png"
 
 export default function Projects(props){
     return(
@@ -11,100 +15,117 @@ export default function Projects(props){
                     <h2> Take a look at my projects! </h2>
                 </article>
 
+                <ProjectElement 
+                    projectPlaceholder={projectOne}
+                    title="The Rock Store"
+                    projectDescription="E-commerce store built for the Javascript course offered by Coderhouse."
+                    techologies="HTML, CSS, Bootstrap, Javascript, JQuery"
+                />
+                <ProjectElement 
+                    projectPlaceholder={placeHolderImage}
+                    title="Project Title"
+                    projectDescription="Acá hablo del proyecto"
+                />
+                <ProjectElement 
+                    projectPlaceholder={projectPlaceholder}
+                    title="Project Title"
+                    projectDescription="Acá hablo del proyecto"
+                />
+                <ProjectElement 
+                    projectPlaceholder={projectPlaceholder}
+                    title="Project Title"
+                    projectDescription="Acá hablo del proyecto"
+                />
                 
 
-                <article className="projects--elements">
+                {/* <ProjectOne /> */}
+                
 
-                    <div className="projects--elements_one">
+                {/* <article className="projects--elements">
+
+                    <div className="projects--elements_items">
 
                         <img src={projectPlaceholder} 
                             alt="projectPlaceOne" 
-                            className="projects--one_img"
+                            // className="projects--one_img"
                         />
 
-                        <p>
-                            Here i talk about the project
-                        </p>
+                        <div>
+                            <h4>
+                                Project Title
+                            </h4>
+
+                            <p>
+                                Here i talk about the project
+                            </p>
+                        </div>
 
                     </div>
 
 
-                    <div className="projects--elements_two">
+                    <div className="projects--elements_items">
                         
                         <img src={projectPlaceholder} 
                             alt="projectPlaceOne" 
                             className="projects--two_img"
                         />
 
-                        <p>
-                            Here i talk about the project again
-                        </p>
+                        <div>
+                            <h4>
+                                Project Title
+                            </h4>
+
+                            <p>
+                                Here i talk about the project again
+                            </p>
+
+                        </div>
 
                     </div>
 
 
-                    <div className="projects--elements_three">
+                    <div className="projects--elements_items">
                         <img src={projectPlaceholder} 
                             alt="projectPlaceOne" 
                             className="projects--three_img"
                         />
+            
+                        <div>
 
-                        <p>
-                            Here i talk about the project again
-                        </p>
+                            <h4>
+                                Project Title
+                            </h4>
+
+                            <p>
+                                Here i talk about the project again
+                            </p>
+
+                        </div>
 
                     </div>
 
 
-                    <div className="projects--elements_four">
+                    <div className="projects--elements_items">
 
                         <img src={projectPlaceholder} 
                             alt="projectPlaceOne" 
                             className="projects--four_img"
                         />
 
-                        <p>
-                            Here i talk about the project again
-                        </p>
+                        <div>
+                            <h4>
+                                Project Title
+                            </h4>
+
+                            <p>
+                                Here i talk about the project again
+                            </p>
+
+                        </div>
 
                     </div>
 
 
-                </article>
-
-
-                {/* <article className="projects--one">
-                    <img src={projectPlaceholder} 
-                        alt="projectPlaceOne" 
-                        className="projects--one_img"
-                    />
-
-                    <p>
-                        Here i talk about the project
-                    </p>
-
-                </article>
-
-                <article className="projects--two">
-                    <img src={projectPlaceholder} 
-                        alt="projectPlaceOne" 
-                        className="projects--two_img"/>
-                    I stand
-                    
-                </article>
-
-                <article className="projects--three">
-                    <img src={projectPlaceholder} 
-                        alt="projectPlaceOne" 
-                        className="projects--three_img"/>
-
-                    
-                </article>
-
-                <article className="projects--four">
-                <img src={projectPlaceholder} 
-                    alt="projectPlaceOne" 
-                    className="projects--four_img"/>
                 </article> */}
 
             </div>

@@ -52,8 +52,6 @@ p{
 .header{
   height: 15vh;
   background-color: rgb(26, 35, 46);
-  /* position: sticky;
-  top: 0; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -89,11 +87,8 @@ p{
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  /* border: 1px white solid; */
   align-items: center;
   justify-content: center;
-  /* background-color: white; */
-  /* background-image: url("./images/background2.png"); */
 }
 
 
@@ -107,7 +102,6 @@ p{
 
 .header--navbar_items > li {
   padding: 25px 32px;
-  /* border: 1px solid white; */
   text-decoration: none;
   color: white;
 }
@@ -119,7 +113,6 @@ p{
 
 .header--navbar_items > li > a{
   text-decoration: none;
-  /* color: white; */
   color: inherit;
 }
 
@@ -155,24 +148,17 @@ p{
 
 /* Start of the Hero Section Styling */
 .heroSection{
-  /* background-color: blueviolet; */
-  /* color: white; */
   height: 85vh;
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  /* border: 1px solid black; */
 }
 
 .heroSection--text{
-  /* border: 1px solid black; */
-  /* flex: 1; */
   padding: 120px 112px;
   text-align: center;
-  /* background-color: #EBEBEB; */
 }
 
 .heroSection--text > h1{
@@ -218,7 +204,6 @@ p{
   height: 100%;
   border: 1px solid black;
   margin-bottom: 20px;
-  /* justify-self: center; */
 }
 
 .projects{
@@ -233,7 +218,6 @@ p{
 .projects--title{
   width: 100%;
   height: 20vh;
-  /* border: 1px solid black; */
   justify-self: center;
 }
 
@@ -244,10 +228,6 @@ p{
 
 .projectElement{
   height: 100vh;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-
   display: grid;
   padding: 2rem;
   grid-template-columns: 1fr 1fr;
@@ -256,30 +236,23 @@ p{
   place-items: center;
 }
 
-/* .projectElement--img{
-  flex: 1;
-  border: 1px solid blue;
-} */
-
 .projectElement--img-pic{
   max-width: 100%;
   height: auto;
-  border: 1px solid pink;
   box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.61);
 }
 
+.projectElement--img-pic:hover{
+  opacity:0.8;
+}
 
 .projectElement--Description{
   text-align: center;
-  /* border: 1px solid black; */
   flex: 1;
 }
 
 .skills{
-  /* background-color: green; */
-  /* border: 1px solid black; */
   height: 75vh;
-  /* color: white; */
   margin: 0 auto;
   width: 90%;
   display: flex;
@@ -308,25 +281,17 @@ p{
 }
 .skills--elements_item > h4{
   padding: 10px;
-  /* border: 1px solid black; */
 }
 .skills--elements_item > img {
   max-width: 100px;
 }
 
 .aboutMe{
-  /* background-color: darkmagenta; */
   height: 70vh;
-  /* color: white; */
   margin: 0 auto;
   width: 90%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-  /* align-items: center; */
-
-  /* border: 1px solid black; */
-
 }
 
 .aboutMe > h2{
@@ -344,7 +309,6 @@ p{
 .aboutMe--elements_item{
   display: grid;
   place-items: center;
-  /* border: 1px solid black; */
   width: 30%;
   height: auto;
   flex: 1;
@@ -379,23 +343,16 @@ p{
   display: grid;
   place-items: center;
   max-width: 200px;
-  /* border: 1px solid white; */
-
   padding: 20px 32px;
 }
 
 .footer--elements_item > h3{
-  /* border: 1px solid white; */
   padding: 10px;
 }
 
 .footer--elements_item > a > img{
   width: 50px;
-  /* align-self: center;
-  justify-self: center; */
   padding-left: 15px;
-  /* padding: 10px; */
-  /* border: 1px solid white; */
 }
 
 .footer--elements_item > a > img:hover{
@@ -419,23 +376,18 @@ p{
   height: 50vh;
   position: fixed;
   display: grid;
-  /* align-items: center; */
   grid-template-rows: repeat(4, 1fr);
   z-index: 9;
-  /* overflow-y: scroll; */
   background-color: #807b7b;
 }
 .menuNav.showMenu > li {
   list-style-type: none;
-  /* width: 100%; */
-
 }
 
 .menuNav.showMenu > li:hover{
   background-color: beige;
 }
 .menuNav.showMenu > li > a {
-  /* display: block; */
   padding: 10px 40px;
   text-decoration: none;
   color: #3fffd2;
@@ -461,11 +413,9 @@ p{
   }
   .footer--elements_item{
     max-width: 100px;
-    /* border: 1px solid white; */
   }
 
   .footer--elements_item > h3{
-    /* border: 1px solid white; */
     padding: 7px;
   }
 
@@ -541,7 +491,6 @@ p{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0;
-  /* border: 1px solid violet; */
   width: 90%;
   padding: 0.5rem
 }
@@ -586,10 +535,6 @@ p{
   .projects--title{
     height: 10vh;
   }
-  /* .footer--elements{
-    flex-wrap: wrap;
-      
-  } */
 
   .footer--elements{
     justify-content: space-around;

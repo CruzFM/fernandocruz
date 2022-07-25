@@ -1,18 +1,17 @@
 
-import NavLinks from "./NavLinks"
-
-import { CgMenuRound } from 'react-icons/cg'
-import { CgCloseO } from 'react-icons/cg'
-import { useState } from 'react'
+import NavLinks from "./NavLinks";
+import { CgMenuRound } from 'react-icons/cg';
+import { CgCloseO } from 'react-icons/cg';
+import { useState } from 'react';
 
 
 export default function MobileNavigation(){
 
-    const [menuOpen, setMenuOpen] = useState(false)
+    const [menuOpen, setMenuOpen] = useState( false );
 
     const handleMenu = ()=> {
-        setMenuOpen( prevMenu => !prevMenu)
-    }
+        setMenuOpen( prevMenu => !prevMenu);
+    };
 
     const openIcon = <CgMenuRound 
                     className="hamburgerMenu" 
@@ -28,12 +27,12 @@ export default function MobileNavigation(){
                     onClick={handleMenu}
                     />
 
-    const closeMobileMenu= ()=> setMenuOpen(false)
+    const closeMobileMenu= ()=> setMenuOpen(false);
 
     return(
         <nav className="header--navbar mobileNavigation">
             {menuOpen ? closeIcon : openIcon}
             {menuOpen && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
         </nav>
-    )
-}
+    );
+};

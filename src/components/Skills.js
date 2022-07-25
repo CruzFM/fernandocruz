@@ -1,11 +1,11 @@
-import React from "react"
-import html5Logo from "../images/html5Logo.png"
-import cssLogo from "../images/cssLogo.png"
-import javascriptLogo from "../images/javascriptLogo.png"
-import reactLogo from "../images/reactLogo.png"
-import gitLogo from "../images/gitLogo.png"
-import javaLogo from "../images/javaLogo.png"
-import sqlLogo from "../images/sqlserverLogo.png"
+import React from "react";
+import html5Logo from "../images/html5Logo.png";
+import cssLogo from "../images/cssLogo.png";
+import javascriptLogo from "../images/javascriptLogo.png";
+import reactLogo from "../images/reactLogo.png";
+import gitLogo from "../images/gitLogo.png";
+import javaLogo from "../images/javaLogo.png";
+import sqlLogo from "../images/sqlserverLogo.png";
 
 export default function Skills(props){
     return(
@@ -56,5 +56,5 @@ export default function Skills(props){
 
         </section>
 
-    )
-}
+    );
+};

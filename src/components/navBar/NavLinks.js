@@ -1,4 +1,3 @@
-
 export default function NavLinks(props) {
 
   return (
@@ -22,4 +21,4 @@ export default function NavLinks(props) {
 
     </ul>
   );
-}
+};

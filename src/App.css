@@ -47,6 +47,11 @@ p{
   font-size: 1.4rem;
 }
 
+img{
+  max-width: 100%;
+  display: block;
+}
+
 /*Start of the Header section styling*/
 
 .header{
@@ -455,15 +460,26 @@ p{
 }
 
 .projectElement{
-  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0;
   width: 90%;
-  padding: 0.5rem
-}
+  padding: 0.5rem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
 
-/* breakpoint: 780*/
+.projects{
+  height: 375vh;
+}
+
+
+}
+
+/* breakpoint: 768*/
 
 @media (max-width: 768px){
   h1{
@@ -537,6 +553,12 @@ p{
     width: 60px;
   }
 
+  .projects{
+    height: 340vh;
+  }
+  .skills{
+    height: 60vh;
+  }
 }
 
 
@@ -563,5 +585,13 @@ p{
   }
   .heroSection--text{
     padding: 50px 42px;
+  }
+
+  .projects{
+    height: 320vh;
+  }
+
+  .skills{
+    height: 50vh;
   }
 }

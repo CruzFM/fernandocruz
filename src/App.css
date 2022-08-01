@@ -246,8 +246,9 @@ p{
 }
 
 .projectElement--Description{
-  text-align: center;
+  /* text-align: center; */
   flex: 1;
+  padding: 15px;
 }
 
 .skills{
@@ -549,10 +550,10 @@ p{
     width: 40px;
   }
 
-  .footer--elements{
+  /* .footer--elements{
     flex-wrap: wrap;
       
-  }
+  } */
 
   p{
     font-size: 1.1rem;

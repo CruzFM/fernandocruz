@@ -16,7 +16,11 @@ export default function ProjectElement(props){
 
           <p>{props.projectDescription}</p>
 
-          <p>Technologies used: {props.techologies}</p>
+          {
+            !props.technologies === true ?
+            <p>Technologies to be used: React, Javascript, CSS3</p> :
+            <p>Technologies used: {props.technologies}</p>
+          }
         </div>
       </div>
     );

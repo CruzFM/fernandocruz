@@ -26,7 +26,7 @@ export default function AboutMe(props) {
               <h3> Current Job</h3>
             </div>
             <div>
-              <p>Legal councel - Buenos Aires City Government.</p>
+              <p>Legal counsel - Buenos Aires City Government.</p>
               <br />
             </div>
           </div>

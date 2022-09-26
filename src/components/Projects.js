@@ -32,7 +32,7 @@ export default function Projects(props){
                 <ProjectElement 
                     projectImage={projectThree}
                     title="CFM YuGiOh Cardipedia"
-                    projectDescription="A project dedicated to one of my hobbies: Yu-gi-oh cards. It's website built consuming the YGOpro API, and it's made for searching your favorite cards, checking prices and building a deck. It's still under development for further improvements."
+                    projectDescription="A project dedicated to one of my hobbies: Yu-gi-oh cards. It's built consuming the YGOpro API, and it's made for searching your favorite cards, checking prices and building a deck. It's still under development for further improvements."
                     technologies="React, Javascript, CSS3."
                     link="https://cfm-ygocardipedia.vercel.app/"
                 />

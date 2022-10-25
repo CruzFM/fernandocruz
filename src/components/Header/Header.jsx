@@ -51,7 +51,7 @@ export default function Header(props) {
         {isMobile && (
           <>
             { renderMobile() }
-            <div onClick={handleClick} className="text-white">
+            <div onClick={handleClick} className="dark:text-white text-black">
               {isOpen ? "clickeado" : "falta"}
             </div>
           </>

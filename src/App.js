@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div className={darkMode ? 'darkMode' : ''}>
+    <div className={darkMode ? 'darkMode min-h-screen' : 'min-h-screen'}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
       <Routes>

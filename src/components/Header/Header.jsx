@@ -6,7 +6,6 @@ import sun from "../../images/sun.png";
 import moon from "../../images/luna.png";
 
 //components
-import { Link } from 'react-router-dom'
 import DesktopNavbar from "./DesktopNavbar";
 import MobileNavbar from "./MobileNavbar";
 

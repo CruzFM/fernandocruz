@@ -2,9 +2,6 @@
 import './App.css';
 import React from "react"
 import Header from "./components/Header/Header"
-import Hero from "./components/Hero"
-import AboutMe from "./components/AboutMe"
-import Footer from "./components/Footer"
 import TestComponent from "./components/TestComponent/TestComponent"
 import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects'
@@ -12,6 +9,7 @@ import Skills from './components/Skills/Skills'
 
 import {Routes, Route} from 'react-router-dom';
 import Error404 from './components/Error404/Error404';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   // console.log("renderized")
@@ -33,6 +31,8 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/*' element={<Error404 />} />
       </Routes>
+
+      <Footer />
       
       {/* <TestComponent /> */}
       {/* <Hero darkMode={darkMode}/>

@@ -6,7 +6,7 @@ export default function Home(){
             <section className="w-full h-2/3 md:h-screen  my-0 mx-auto">
                 <div className="flex w-10/12 mx-auto my-0 flex-col items-center justify-center md:flex-row-reverse md:h-screen border-solid border-white border md:justify-between">
 
-                    <div className='w-full  border-solid border-white border p-10'>
+                    <div className='w-full  border-solid border-white border p-6 md:p-10'>
                         <h1 className='text-4xl md:text-7xl text-center md:text-left'> <strong>Fernando Cruz</strong></h1>
                         <p className='text-2xl md:text-5xl text-center md:text-left'>Front End Dev</p>
                     </div>
@@ -17,8 +17,8 @@ export default function Home(){
                 </div>
             </section>
 
-            <section className='h-70vh  my-0 mx-auto aboutMe'>
-                <div className="flex h-70vh  w-10/12 mx-auto my-0 flex-col items-center border-solid border-white border ">
+            <section className='h-3/5  my-0 mx-auto aboutMe'>
+                <div className="flex h-3/5  w-10/12 mx-auto my-0 flex-col items-center border-solid border-white border ">
                     <div className="py-3 border-solid border-white border w-full flex items-center justify-center">
                         <h2 className='text-3xl md:text-4xl font-medium text-center'>About me in 10 seconds:</h2>
                     </div>

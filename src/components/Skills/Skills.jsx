@@ -16,7 +16,7 @@ export default function Skills(){
                 <p className="text-2xl md:text-3x1 text-center p-1.5">What I can contribute to your company</p>
             </div>
             <div>
-                <div className="my-0 mx-auto w-11/12   grid grid-cols-2 md:grid-cols-4 gap-1.5">
+                <div className="my-0 mx-auto w-11/12 grid grid-cols-2 md:grid-cols-4 gap-1.5">
                     <div className="grid place-items-center p-5 h-40  shadow round">
                         <img src={html5Logo} alt="html" className="w-28"/>
                         <h5>HTML 5</h5>
@@ -51,7 +51,7 @@ export default function Skills(){
                 <h2 className="text-2xl md:text-4xl text-center p-1"><strong>Currently learning</strong></h2>
                 <p className="text-xl md:text-3x1 text-center p-1.5">New skills that can contribute to the company</p>
             </div>
-            <div className="my-0 mx-auto w-11/12   grid grid-cols-2 md:grid-cols-2 gap-1.5">
+            <div className="my-0 mx-auto w-11/12   grid grid-cols-2 md:grid-cols-2 gap-1.5 mb-2">
                 <div className="grid place-items-center p-5 h-40  shadow round">
                     <img src={sqlLogo} alt="html" className="w-28"/>
                     <h5>SQL</h5>

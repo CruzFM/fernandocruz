@@ -10,7 +10,6 @@
 
 /*Set up the body*/
 body {
-  box-sizing: border-box;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;

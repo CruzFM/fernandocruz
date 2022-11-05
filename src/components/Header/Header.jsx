@@ -41,7 +41,7 @@ export default function Header(props) {
   };
 
   return (
-    <div className=" border-gray-200 px-2 sm:px-4 py-3.5 dark:bg-gray-900 2xl:bg-red-500">
+    <div className="px-2 sm:px-4 py-3.5 dark:bg-gray-900 2xl:bg-red-500 shadow-lg">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <span className="self-center md:text-xl font-semibold whitespace-nowrap dark:text-white sm:text-xs sm:whitespace-normal">
           Fernando Cruz

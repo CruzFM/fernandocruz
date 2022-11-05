@@ -88,3 +88,9 @@ button{
 .h-70vh{
   height: 70vh;
 }
+
+.shadow-custom{
+  box-shadow: 5px 5px 34px 1px rgba(145,132,132,0.75);
+  -webkit-box-shadow: 5px 5px 34px 1px rgba(145,132,132,0.75);
+  -moz-box-shadow: 5px 5px 34px 1px rgba(145,132,132,0.75);
+}

@@ -10,6 +10,7 @@ import Skills from './components/Skills/Skills'
 import {Routes, Route} from 'react-router-dom';
 import Error404 from './components/Error404/Error404';
 import { Footer } from './components/Footer/Footer';
+import { Certifications } from './components/Certifications/Certifications'
 
 function App() {
   // console.log("renderized")
@@ -29,17 +30,11 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/skills' element={<Skills />} />
+        <Route path='/certifications' element={<Certifications />} />
         <Route path='/*' element={<Error404 />} />
       </Routes>
 
       <Footer />
-      
-      {/* <TestComponent /> */}
-      {/* <Hero darkMode={darkMode}/>
-      <Projects darkMode={darkMode} />
-      <Skills darkMode={darkMode} />
-      <AboutMe darkMode={darkMode} />
-      <Footer /> */}
     </div>
   );
 }

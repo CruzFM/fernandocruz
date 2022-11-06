@@ -11,7 +11,7 @@ export default function Projects(){
             </div>
             {/* PRIMER PROYECTO --- REFACTORIZAR */}
             <div className="h-96 md:h-80 p-3  mb-2">
-                <div className=" h-96 md:h-80 flex flex-col md:flex-row content-center justify-center mx-auto my-0 w-11/12   border border-solid border-black p-1 rounded-md  md:border-0">
+                <div className=" h-96 md:h-80 flex flex-col md:flex-row content-center justify-center mx-auto my-0 w-11/12   border border-solid border-gray-300 p-1 rounded-md  md:border-0">
                     <div className="md:w-2/4">
                         <a href="https://cfmstore-coderhouse.vercel.app" rel="to project one">
                             <img src={projectTwo} className="w-full shadow-2xl" alt="e-commerce project"/>
@@ -31,7 +31,7 @@ export default function Projects(){
             {/* SEGUNDO PROYECTO ---- REFACTORIZAR */}
 
             <div className="h-96 md:h-80 p-3  mb-2">
-                <div className=" h-96 md:h-80 flex flex-col md:flex-row-reverse content-center justify-center mx-auto my-0 w-11/12   border border-solid border-black p-1 rounded-md md:border-0">
+                <div className=" h-96 md:h-80 flex flex-col md:flex-row-reverse content-center justify-center mx-auto my-0 w-11/12   border border-solid border-gray-300 p-1 rounded-md md:border-0">
                     <div className="md:w-2/4">
                         <a href="https://cfm-ygocardipedia.vercel.app" rel="to project one">
                             <img src={projectThree} className="w-full shadow-2xl" alt="e-commerce project"/>
@@ -49,10 +49,10 @@ export default function Projects(){
             {/* ---------------------------------- */}
 
 
-            {/* SEGUNDO PROYECTO ---- REFACTORIZAR */}
+            {/* TERCER PROYECTO ---- REFACTORIZAR */}
  
-            <div className="h-96 md:h-80 p-3  mb-2">
-                <div className=" h-96 md:h-80 flex flex-col md:flex-row content-center justify-center mx-auto my-0 w-11/12   border border-solid border-black p-1 rounded-md  md:border-0">
+            <div className="h-96 md:h-80 p-3  mb-4">
+                <div className=" h-96 md:h-80 flex flex-col md:flex-row content-center justify-center mx-auto my-0 w-11/12   border border-solid border-gray-300 p-1 rounded-md  md:border-0">
                     <div className="md:w-2/4">
                         <a href="https://myfinanceapp.vercel.app" rel="to project one">
                             <img src={projectFour} className="w-full shadow-2xl" alt="e-commerce project"/>

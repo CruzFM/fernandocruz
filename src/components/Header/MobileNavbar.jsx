@@ -4,10 +4,10 @@ export default function MobileNavbar( { closeNav }){
 
     return(
         <div
-            className='w-full absolute top-9 right-0'
+            className='w-full absolute top-9 right-0 '
             id="navbar-default"
         >
-        <ul className="flex flex-col p-4 mt-4 bg-gray-50 border border-gray-100 dark:bg-gray-800 dark:border-gray-700">
+        <ul className="flex flex-col p-4 mt-4 bg-gray-100 border border-gray-100 dark:bg-gray-800 dark:border-gray-700 ">
           <li>
             <Link
               to="/"

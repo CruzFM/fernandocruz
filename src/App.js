@@ -2,19 +2,15 @@
 import './App.css';
 import React from "react"
 import Header from "./components/Header/Header"
-import TestComponent from "./components/TestComponent/TestComponent"
 import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
-
 import {Routes, Route} from 'react-router-dom';
 import Error404 from './components/Error404/Error404';
 import { Footer } from './components/Footer/Footer';
 import { Certifications } from './components/Certifications/Certifications'
 
 function App() {
-  // console.log("renderized")
-
 
   const [darkMode, setDarkMode] = React.useState( false );
 

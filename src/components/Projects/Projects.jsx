@@ -1,5 +1,6 @@
 import projectTwo from "../../images/Proyecto2-portfolio.png"
 import projectThree from "../../images/Proyecto3-portfolio.png";
+import projectFour from "../../images/Proyecto4-portfolio.png";
 
 export default function Projects(){
     return(
@@ -12,7 +13,7 @@ export default function Projects(){
             <div className="h-96 md:h-80 p-3  mb-2">
                 <div className=" h-96 md:h-80 flex flex-col md:flex-row content-center justify-center mx-auto my-0 w-11/12   border border-solid border-black p-1 rounded-md  md:border-0">
                     <div className="md:w-2/4">
-                        <a href="google.com" rel="to project one">
+                        <a href="https://cfmstore-coderhouse.vercel.app" rel="to project one">
                             <img src={projectTwo} className="w-full shadow-2xl" alt="e-commerce project"/>
 
                         </a>
@@ -32,7 +33,7 @@ export default function Projects(){
             <div className="h-96 md:h-80 p-3  mb-2">
                 <div className=" h-96 md:h-80 flex flex-col md:flex-row-reverse content-center justify-center mx-auto my-0 w-11/12   border border-solid border-black p-1 rounded-md md:border-0">
                     <div className="md:w-2/4">
-                        <a href="google.com" rel="to project one">
+                        <a href="https://cfm-ygocardipedia.vercel.app" rel="to project one">
                             <img src={projectThree} className="w-full shadow-2xl" alt="e-commerce project"/>
 
                         </a>
@@ -53,8 +54,8 @@ export default function Projects(){
             <div className="h-96 md:h-80 p-3  mb-2">
                 <div className=" h-96 md:h-80 flex flex-col md:flex-row content-center justify-center mx-auto my-0 w-11/12   border border-solid border-black p-1 rounded-md  md:border-0">
                     <div className="md:w-2/4">
-                        <a href="google.com" rel="to project one">
-                            <img src={projectTwo} className="w-full shadow-2xl" alt="e-commerce project"/>
+                        <a href="https://myfinanceapp.vercel.app" rel="to project one">
+                            <img src={projectFour} className="w-full shadow-2xl" alt="e-commerce project"/>
 
                         </a>
                     </div>

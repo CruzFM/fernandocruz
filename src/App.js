@@ -1,30 +1,35 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from "react"
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Skills from "./components/Skills"
-import AboutMe from "./components/AboutMe"
-import Projects from "./components/Projects"
-import Footer from "./components/Footer"
+import Header from "./components/Header/Header"
+import Home from './components/Home/Home'
+import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
+import {Routes, Route} from 'react-router-dom';
+import Error404 from './components/Error404/Error404';
+import { Footer } from './components/Footer/Footer';
+import { Certifications } from './components/Certifications/Certifications'
 
 function App() {
-  // console.log("renderized")
 
-  const [darkMode, setDarkMode] = React.useState( false )
+  const [darkMode, setDarkMode] = React.useState( false );
 
   const toggleDarkMode = () => {
     setDarkMode(prevDarkMode => !prevDarkMode)
   }
 
-
   return (
-    <div>
+    <div className={darkMode ? 'darkMode min-h-screen' : 'min-h-screen'}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero darkMode={darkMode}/>
-      <Projects darkMode={darkMode} />
-      <Skills darkMode={darkMode} />
-      <AboutMe darkMode={darkMode} />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/certifications' element={<Certifications />} />
+        <Route path='/*' element={<Error404 />} />
+      </Routes>
+
       <Footer />
     </div>
   );

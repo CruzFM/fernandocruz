@@ -17,7 +17,7 @@ export default function Home(){
                 </div>
             </section>
 
-            <section className='h-3/5  my-0 mx-auto aboutMe'>
+            <section className='h-3/5  my-0 mx-auto aboutMe mb-2'>
                 <div className="flex h-3/5  w-10/12 mx-auto my-0 flex-col items-center">
                     <div className="py-3 w-full flex items-center justify-center">
                         <h2 className='text-3xl md:text-4xl font-medium text-center'>About me in 10 seconds:</h2>

@@ -23,9 +23,9 @@ export default function Home(){
                         <h2 className='text-3xl md:text-4xl font-medium text-center'>About me in 10 seconds:</h2>
                     </div>
                     <div className='w-full  md:w-3/4'>
-                        <p className='py-2 text-base md:text-3xl'>Hi there, I'm Fernando! I'm a self-taught front end developer from Argentina.</p>
-                        <p className='py-2 text-base md:text-3xl'>Right now, I work as a Lawyer for my city's Government department, but I want to make a full career switch and break into the tech industry!</p>
-                        <p className='py-2 text-base md:text-3xl'>My main goal is to participate in challenging projects alongside a team whose main focus is collaboration and team work.</p>
+                        <p className='py-2 text-justify text-base md:text-3xl'>Hi there, I'm Fernando! I'm a self-taught front end developer from Argentina.</p>
+                        <p className='py-2 text-justify text-base md:text-3xl'>Right now, I work as a Lawyer for my city's Government department, but I want to make a full career switch and break into the tech industry!</p>
+                        <p className='py-2 text-justify text-base md:text-3xl'>My main goal is to participate in challenging projects alongside a team whose main focus is collaboration and team work.</p>
                     </div>
                 </div>
 

@@ -24,7 +24,7 @@ export default function Home(){
                     </div>
                     <div className='w-full  md:w-3/4'>
                         <p className='py-2 text-justify text-base md:text-3xl'>Hi there, I'm Fernando! I'm a self-taught front end developer from Argentina.</p>
-                        <p className='py-2 text-justify text-base md:text-3xl'>Right now, I work as a Lawyer for my city's Government department, but I want to make a full career switch and break into the tech industry!</p>
+                        <p className='py-2 text-justify text-base md:text-3xl'>I'm currently working as a Lawyer for my city's Government department, but I want to make a full career switch and break into the tech industry!</p>
                         <p className='py-2 text-justify text-base md:text-3xl'>My main goal is to participate in challenging projects alongside a team whose main focus is collaboration and team work.</p>
                     </div>
                 </div>

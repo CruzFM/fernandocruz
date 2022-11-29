@@ -21,7 +21,7 @@ export default function Projects(){
                     </div>
                     <div className="md:w-2/4 pt-3 md:p-3">
                         <h3 className="text-2xl md:text-3xl text-center p-1">E-Commerce Project</h3>
-                        <p className="text-base md:text-2xl text-justify p-1">Stack: React, Javascript, HTML, CSS3, Bootstrap 4</p>
+                        <p className="text-base md:text-2xl text-justify p-1">Stack: React, Javascript, HTML, CSS3, Bootstrap 4.</p>
                         <p className="text-base md:text-2xl text-justify p-1">Project built using the Fakestore API during the React course given by Coderhouse.</p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ export default function Projects(){
                     </div>
                     <div className="md:w-2/4 pt-3 md:p-3">
                         <h3 className="text-2xl md:text-3xl text-center p-1">My Finance App</h3>
-                        <p className="text-base md:text-2xl text-justify p-1">Stack: React, Javascript, HTML, CSS3</p>
+                        <p className="text-base md:text-2xl text-justify p-1">Stack: React, Javascript, HTML, CSS3.</p>
                         <p className="text-base md:text-2xl text-justify p-1">This project simulates a home economy app, in which you can add your incomes, spendings, savings, and get a balance.</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ export default function Projects(){
                     </div>
                     <div className="md:w-2/4 pt-3 md:p-3">
                         <h3 className="text-2xl md:text-3xl text-center p-1">Countries explorer</h3>
-                        <p className="text-base md:text-2xl text-justify p-1">Stack: React, Tailwind, Javascript, HTML</p>
+                        <p className="text-base md:text-2xl text-justify p-1">Stack: React, Tailwind, Javascript, HTML.</p>
                         <p className="text-base md:text-2xl text-justify p-1">Project built based on the frontendmentor.io challenge. You can search and filter countries and take a look at their main information.</p>
                     </div>
                 </div>

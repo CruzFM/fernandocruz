@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -13,6 +14,7 @@ function App() {
       <Projects />
       <AboutMe />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

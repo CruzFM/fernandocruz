@@ -1,12 +1,70 @@
+import { motion } from "motion/react";
+
 function Hero() {
-    return(
-        <div className="h-3/5 md:h-screen px-8 md:px-32 pt-11 md:pt-40 py-16 border border-black flex flex-col gap-2">
-            <h1 className="text-4xl md:text-7xl font-extrabold text-primary-color">Fernando Martin Cruz</h1>
-            <h2 className="text-xl md:text-4xl font-semibold">Software developer</h2>
-            <p className="text-normal md:text-2xl font-normal mt-2.5">Coding with passion, delivering with precision.</p>
-            <button type="button" className="btn-primary w-48 py-2 md:py-4 md:px-5 btn rounded-none mt-2.5 font-semibold flex justify-center items-center">Selected projects</button>
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("projects");
+    const navbarOffset = 80;
+
+    if (projectsSection) {
+      const elementPosition = projectsSection.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - navbarOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <div className="relative min-h-screen flex items-center bg-gradient-to-b from-slate-50 to-slate-100 overflow-hidden">
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="max-w-3xl">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-6xl font-bold text-slate-800 mb-4"
+          >
+            Fernando Martin Cruz
+          </motion.h1>
+
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-3xl text-slate-600 mb-6"
+          >
+            Software developer
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="text-xl text-slate-600 mb-8"
+          >
+            Coding with passion, delivering with precision.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+          >
+            <button
+              onClick={scrollToProjects}
+              aria-label="Scroll to projects section"
+              type="button"
+              className="px-8 py-3 bg-slate-800 text-white rounded-lg transition-all hover:bg-slate-700 hover:shadow-lg transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-opacity-50"
+            >
+              Selected projects
+            </button>
+          </motion.div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default Hero;

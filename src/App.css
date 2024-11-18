@@ -19,6 +19,11 @@ body, html{
   color: var(--primary-color);
 }
 
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

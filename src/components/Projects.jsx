@@ -1,15 +1,17 @@
 import { motion } from "motion/react";
+import moneyWiseFront from "../assets/moneyWiseFront.png";
 import Card from "./Card";
 
 function Projects() {
   const projects = [
     {
-      name: "Project under construction",
+      name: "Money wise (Frontend)",
       description:
-        "The following project is under construction. Stay tuned!",
-      demo: "#",
-      repo: "#",
-      tags: ["Fullstack", "Express"],
+        "A personal expense tracker built with React.",
+      demo: "https://money-wise-front.vercel.app/",
+      repo: "https://github.com/CruzFM/money-wise-front",
+      tags: ["Frontend", "React", "SPA", "Fullstack"],
+      picture: moneyWiseFront
     },
     {
       name: "Project under construction",

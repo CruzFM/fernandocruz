@@ -12,7 +12,7 @@ function Card({ project, index }) {
     >
       <figure className="relative h-48 bg-base-200">
         <img
-          src={underConstruction}
+          src={project.picture || underConstruction}
           alt="Project preview"
           className="w-full h-full object-cover"
         />
@@ -31,10 +31,10 @@ function Card({ project, index }) {
         <p className="text-slate-300 mb-4">{project.description}</p>
 
         <div className="card-actions justify-start gap-3">
-          <a href={project.demo} className="btn btn-primary btn-sm">
+          <a href={project.demo} target="_blank" rel="noreferrer" className="btn btn-primary btn-sm">
             Watch Demo
           </a>
-          <a href={project.repo} className="btn btn-ghost btn-sm text-white">
+          <a href={project.repo}  target="_blank" rel="noreferrer" className="btn btn-ghost btn-sm text-white">
             Repository
           </a>
         </div>
@@ -43,7 +43,7 @@ function Card({ project, index }) {
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="px-3 py-1 text-xs rounded-full border border-slate-700 text-slate-300"
+              className="px-3 py-1 text-xs rounded-full border border-slate-700 text-slate-300 flex items-center"
             >
               {tag}
             </span>

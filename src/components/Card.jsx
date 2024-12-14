@@ -39,7 +39,7 @@ function Card({ project, index }) {
           </a>
         </div>
 
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-4 flex-wrap">
           {project.tags.map((tag) => (
             <span
               key={tag}

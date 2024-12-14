@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import moneyWiseFront from "../assets/moneyWiseFront.png";
+import moneyWiseBack from "../assets/moneyWiseBack.png";
 import Card from "./Card";
 
 function Projects() {
@@ -14,12 +15,13 @@ function Projects() {
       picture: moneyWiseFront
     },
     {
-      name: "Project under construction",
+      name: "Money wise (backend)",
       description:
-        "The following project is under construction. Stay tuned!",
-      demo: "#",
-      repo: "#",
-      tags: ["Fullstack", "Java"],
+        "A backend service with authentication, transaction management, and API documentation powered by Node.js and MongoDB.",
+      demo: "https://money-wise-service.onrender.com/api-docs/",
+      repo: "https://github.com/CruzFM/money-wise-service",
+      tags: ["Backend", "Node", "Express", "MongoDB"],
+      picture: moneyWiseBack
     },
     {
       name: "Project under construction",

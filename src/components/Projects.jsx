@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import moneyWiseFront from "../assets/moneyWiseFront.png";
 import moneyWiseBack from "../assets/moneyWiseBack.png";
+import pokeapiChallenge from "../assets/pokeapiChallenge.png"
 import Card from "./Card";
 
 function Projects() {
@@ -24,12 +25,13 @@ function Projects() {
       picture: moneyWiseBack
     },
     {
-      name: "Project under construction",
+      name: "Pokeapi Challenge",
       description:
-        "The following project is under construction. Stay tuned!",
-      demo: "#",
-      repo: "#",
-      tags: ["Fullstack", "Vue.js"],
+        "A custom-designed Pokédex app built with Vue.js3, based on a custom Figma design, built for a coding challenge.",
+      demo: "https://pokeapi-challenge-my24.vercel.app",
+      repo: "https://github.com/CruzFM/pokeapi-challenge",
+      tags: ["Frontend","Vue.js","Pinia", "Tailwind", "SPA"],
+      picture: pokeapiChallenge
     },
   ];
   return (

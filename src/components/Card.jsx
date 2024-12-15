@@ -14,7 +14,7 @@ function Card({ project, index }) {
         <img
           src={project.picture || underConstruction}
           alt="Project preview"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
       </figure>
 

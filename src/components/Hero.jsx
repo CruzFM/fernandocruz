@@ -20,7 +20,23 @@ function Hero() {
   return (
     <div className="relative min-h-screen flex items-center bg-gradient-to-b from-slate-50 to-slate-100 overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-3xl">
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: {
+                staggerChildren: 0.2,
+                duration: 1,
+                ease: "easeOut",
+              },
+            },
+          }}
+          className="max-w-3xl"
+        >
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -32,7 +48,6 @@ function Hero() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
             className="text-3xl text-slate-600 mb-6"
           >
             Software developer
@@ -41,7 +56,6 @@ function Hero() {
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
             className="text-xl text-slate-600 mb-8"
           >
             Coding with passion, delivering with precision.
@@ -50,7 +64,6 @@ function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
           >
             <button
               onClick={scrollToProjects}
@@ -61,7 +74,7 @@ function Hero() {
               Selected projects
             </button>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

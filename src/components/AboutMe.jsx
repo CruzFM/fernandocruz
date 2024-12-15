@@ -28,7 +28,10 @@ function AboutMe() {
     },
   };
   return (
-    <section className="min-h-screen py-20 grid xl:place-items-center bg-gradient-to-b from-slate-50 to-slate-100" id="about">
+    <section
+      className="min-h-screen py-20 grid xl:place-items-center bg-gradient-to-b from-slate-50 to-slate-100"
+      id="about"
+    >
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row lg:gap-20 2xl:gap-32 items-center">
           {/* Text Content */}
@@ -106,43 +109,31 @@ function AboutMe() {
           {/* Image */}
           <motion.div
             className="lg:flex-1 mt-10 lg:mt-0"
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30, scale: 0.95, filter: "blur(10px)" }}
             whileInView={{
               opacity: 1,
               y: 0,
+              scale: 1,
+              filter: "blur(0px)",
               transition: {
-                duration: 0.8,
-                ease: "easeOut",
+                duration: 1.5,
+                ease: [0.25, 0.8, 0.25, 1],
               },
             }}
             viewport={{ once: true, margin: "-100px" }}
           >
             <motion.div
               whileHover={{
-                scale: 1.01,
-                transition: {
-                  duration: 0.3,
-                  ease: "easeOut",
-                },
+                scale: 1.02,
+                boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.15)",
+                transition: { duration: 0.4, ease: "easeOut" },
               }}
-              className="relative"
+              className="relative group"
             >
-              <motion.div
-                className="absolute -inset-4 bg-primary/10 rounded-lg -z-10"
-                initial={{ opacity: 0, scale: 0.98 }}
-                whileInView={{
-                  opacity: 1,
-                  scale: 1,
-                  transition: {
-                    duration: 0.5,
-                    delay: 0.2,
-                  },
-                }}
-                viewport={{ once: true }}
-              />
+              <motion.div className="absolute -inset-6 rounded-lg -z-10 bg-gradient-to-tr from-primary/20 via-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-200 ease-out" />
               <img
                 src={fotoPerfil}
-                className="w-full max-w-md mx-auto rounded-lg shadow-xl"
+                className="w-full max-w-md mx-auto rounded-lg shadow-lg group-hover:shadow-2xl transition-shadow duration-500"
                 alt="Fernando Cruz, a man smiling at the camera in a formal shirt and professional pose"
               />
             </motion.div>

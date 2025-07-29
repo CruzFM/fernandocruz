@@ -1,34 +1,11 @@
 import { useState, useEffect } from "react";
+import logo from "../assets/logo_image-xs.png";
 
 const Logo = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 100 100"
-    className="w-8 h-8"
-  >
-    <circle
-      cx="50"
-      cy="50"
-      r="48"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-    />
-    <path
-      d="M35 30 L55 30 M35 30 L35 70 M35 48 L50 48"
-      stroke="currentColor"
-      strokeWidth="4"
-      strokeLinecap="round"
-      fill="none"
-    />
-    <path
-      d="M65 35 A20 20 0 0 0 65 65"
-      stroke="currentColor"
-      strokeWidth="4"
-      strokeLinecap="round"
-      fill="none"
-    />
-  </svg>
+  <img 
+    src={logo}
+    alt="Fernando Cruz logo"
+  />
 );
 
 function Header() {

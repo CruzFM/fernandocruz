@@ -1,15 +1,15 @@
 import { motion } from "motion/react";
 import moneyWiseFront from "../assets/moneyWiseFront.png";
 import moneyWiseBack from "../assets/moneyWiseBack.png";
-import pokeapiChallenge from "../assets/pokeapiChallenge.png"
 import Card from "./Card";
+import ERDiagram from "../assets/ER-card_generator.png";
 
 function Projects() {
   const projects = [
     {
       name: "Money wise (Frontend)",
       description:
-        "A personal expense tracker built with React.",
+        "A personal expense tracker built with React, Tailwind CSS, and shadcn/ui, designed from scratch in Figma. It features user authentication, transaction management, and a responsive design.",
       demo: "https://money-wise-front.vercel.app/",
       repo: "https://github.com/CruzFM/money-wise-front",
       tags: ["Frontend", "React", "SPA", "Fullstack"],
@@ -25,14 +25,12 @@ function Projects() {
       picture: moneyWiseBack
     },
     {
-      name: "Pokeapi Challenge",
-      description:
-        "A custom-designed Pokédex app built with Vue.js3, based on a custom Figma design, built for a coding challenge.",
-      demo: "https://pokeapi-challenge-my24.vercel.app",
-      repo: "https://github.com/CruzFM/pokeapi-challenge",
-      tags: ["Frontend","Vue.js","Pinia", "Tailwind", "SPA"],
-      picture: pokeapiChallenge
-    },
+      name: "Yu-Gi-Oh! Card Database - SQL & Data Modeling",
+      description: "A relational database designed in PostgreSQL to model the complex relationships of the Yu-Gi-Oh! trading card game. \n It features a fully normalized schema covering cards, archetypes, attributes, subtypes, formats, and banlists, with an ER diagram.",
+      demo: "/card_generator-readme.pdf",
+      tags: ["Database", "PostgreSQL", "SQL"],
+      picture: ERDiagram
+    }
   ];
   return (
     <section className="py-20" id="projects">

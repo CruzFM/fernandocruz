@@ -53,7 +53,7 @@ function AboutMe() {
               variants={fadeInUpVariants}
               className="text-lg text-slate-700 leading-relaxed"
             >
-              I'm a self-taught software developer with a background in law, a
+              I'm a self-taught software developer with a law degree, a
               field I left behind to pursue my true passion: technology. Since
               starting my coding journey in 2021, I've found in software
               development the perfect blend of problem-solving and creativity
@@ -64,16 +64,18 @@ function AboutMe() {
               variants={fadeInUpVariants}
               className="text-lg text-slate-700 leading-relaxed"
             >
-              Today, I'm a Software Developer at Boehringer-Ingelheim, working
-              on full-stack development, accessibility, and impactful volunteer
-              projects.
+              After two years at Boehringer-Ingelheim, I've joined Telecentro S.A. as a full-stack developer. My work involves designing and building robust APIs and modern front-ends, database design, and modernizing legacy systems to improve performance and user experience.
               <motion.div
                 variants={fadeInUpVariants}
                 className="mt-4 flex flex-wrap gap-2"
               >
                 {[
-                  "Vue.js",
+                  ".NET Core",
+                  "Oracle",
+                  "PostgreSQL",
                   "React",
+                  "TypeScript",
+                  "Vue.js",
                   "Node.js",
                   "SASS",
                   "Bootstrap",
